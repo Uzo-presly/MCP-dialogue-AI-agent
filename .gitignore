@@ -1,0 +1,23 @@
+#Ignore our yaml instruction files
+yaml_instrcution_files/
+# Python virtual environment  Ignore our local Python virtual environment folders
+venv/
+.venv/
+myvenv/
+.myenv/
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables / secrets # Ignore local environment configurations containing secret keys
+.env
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+
+# Add API keys here if you switch to a cloud LLM.
+# Never commit the real .env file.
+GEMINI_API_KEY=your_api_key_here
