@@ -20,4 +20,4 @@ __pycache__/
 
 # Add API keys here if you switch to a cloud LLM.
 # Never commit the real .env file.
-GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here or os.getenv("GEMIN_API_KEY")
