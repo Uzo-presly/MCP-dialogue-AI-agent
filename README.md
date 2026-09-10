@@ -16,7 +16,7 @@ User
   ↓
 client.py
   ↓
-Ollama LLM
+Ollama LLM (Gemma2 offers a better output than Ollama for this exercise)
   ↓
 LangGraph Agent
   ↓
@@ -74,7 +74,7 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-## Install the Ollama Model
+## Install the Ollama Model or Gemma2
 
 ollama pull llama3.2:1b
 

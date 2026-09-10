@@ -1,10 +1,10 @@
 import asyncio
 import sys
-import warnings  # 🤫 ADD THIS: Built-in Python tool to muzzle noisy warnings
+#import warnings  # 🤫 ADD THIS: Built-in Python tool to muzzle noisy warnings
 
 # Silences all deprecation notices so your terminal logs stay completely pristine
-warnings.filterwarnings("ignore", category=DeprecationWarning)
-warnings.filterwarnings("ignore", message=".*LangGraphDeprecatedSinceV10.*")
+#warnings.filterwarnings("ignore", category=DeprecationWarning)
+#warnings.filterwarnings("ignore", message=".*LangGraphDeprecatedSinceV10.*")
 
 
 from langchain_mcp_adapters.tools import load_mcp_tools
